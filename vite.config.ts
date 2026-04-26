@@ -7,3 +7,9 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig();
+
+export default {
+  server: {
+    allowedHosts: ["pesacups1.onrender.com"],
+  },
+};
